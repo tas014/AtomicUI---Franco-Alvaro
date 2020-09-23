@@ -4,7 +4,7 @@ import Header from '../Header/styled';
 import logo from '../Header/logo.png'
 
 const Navbar = () => {
-    let { id } = useParams()
+    let { id } = useParams();
 
     return (
         <Header>
