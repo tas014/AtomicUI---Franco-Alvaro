@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Header from '../Header/styled';
-import logo from '../Header/logo.png'
+import logo from '../Header/asterik.svg'
 
 const Navbar = () => {
     let { id } = useParams();

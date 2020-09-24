@@ -1,7 +1,8 @@
 import styled from 'styled-components'
-import background from '../MainPage/background.gif'
-
+import background from '../MainPage/background2.jpg';
+/* background-image: url(${background});*/
 const Main = styled.main`
+
     background-image: url(${background});
     background-size:cover;
     display:flex;
@@ -12,8 +13,17 @@ const Main = styled.main`
     margin:none;
 
     & h1 {
-        color:white
+        color: white;
+    font-family: 'Gugi',monospace;
+    font-weight: 100;
+    font-size: 2em;
     }
+
+    & span{
+        font-style: italic;
+    color: orange;
+    }
+    
 `
 
 export default Main
