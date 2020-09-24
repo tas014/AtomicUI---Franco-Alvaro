@@ -11,6 +11,7 @@ const Header = styled.header`
     left:0;
     top:0;
     margin: 0 auto;
+    background-color:rgba(0,0,0,0.6);
     
 
     & div {
@@ -46,6 +47,12 @@ const Header = styled.header`
     transition: 0.6s;
     font-weight: bold;
 
+    }
+
+    & nav a:nth-child(${props => { return props.Currentpage }}) {
+        background-color: white;
+        color:black;
+        border-radius:10px;
     }
 
     nav a:hover{
