@@ -11,7 +11,7 @@ const Header = styled.header`
     left:0;
     top:0;
     margin: 0 auto;
-    background-color:rgba(0,0,0,0.6);
+    background-color:rgb(0 0 0 / 35%);
     
 
     & div {
@@ -51,7 +51,7 @@ const Header = styled.header`
 
     & nav a:nth-child(${props => { return props.Currentpage }}) {
         background-color: white;
-        color:black;
+        color:orange;
         border-radius:10px;
     }
 

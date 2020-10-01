@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const P = styled.p`
-
+    
     color: ${(props) => {
         switch (props.page) {
             case 'home':
@@ -15,7 +15,9 @@ const P = styled.p`
                 break;
         }
     }
+
     };
+      font-family: 'Poppins', sans-serif;
 `
 
 export default P

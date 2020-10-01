@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Header from '../Header/styled';
-import logo from '../Header/asterik.svg';
+import Logo from '../Logo';
 
 const translateURL = id => {
     switch (id) {
@@ -23,13 +23,14 @@ const Navbar = () => {
 
     return (
         <Header Currentpage={currentpage}>
-            <div>
-                <h1><figure><img src={logo} alt='logo' /></figure></h1>
-            </div>
+            <Logo />
             <nav>
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About Us</Link>
                 <Link to='/experiment'>Experiment</Link>
+                <Link to='/lista'>Lista</Link>
+                
+                
             </nav>
         </Header>
     )
