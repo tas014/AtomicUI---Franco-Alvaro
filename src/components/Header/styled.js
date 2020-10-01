@@ -14,14 +14,14 @@ const Header = styled.header`
     background-color:rgb(0 0 0 / 35%);
     
 
-    & div {
+    div {
         height:20vh;
         display:flex;
         justify-content:center;
         align-items:center
     };
 
-    & nav {
+    nav {
         height:80vh;
         margin: 0 auto;
         display: flex;
@@ -29,7 +29,7 @@ const Header = styled.header`
 
     }
 
-    & nav a {
+    nav a {
       
         text-align: center;
     margin-top: 5em;
@@ -49,7 +49,7 @@ const Header = styled.header`
 
     }
 
-    & nav a:nth-child(${props => { return props.Currentpage }}) {
+    nav a:nth-child(${props => { return props.Currentpage }}) {
         background-color: white;
         color:orange;
         border-radius:10px;
@@ -73,7 +73,7 @@ const Header = styled.header`
     }
 
 
-    & img {
+    img {
         width: 1em;
     color: azure;
     background: white;
@@ -82,7 +82,7 @@ const Header = styled.header`
 
     }
 
-    & img:hover{
+    img:hover{
         border-radius: 6px;
         cursor:pointer;
         transition:0.3s;
