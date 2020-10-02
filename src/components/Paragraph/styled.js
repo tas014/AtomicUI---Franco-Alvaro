@@ -2,17 +2,14 @@ import styled from 'styled-components';
 
 const P = styled.p`
     
-    color: ${(props) => {
+    color: ${props => {
         switch (props.page) {
             case 'home':
-                'blue';
-                break;
+                return 'red';
             case 'experiment':
-                'red';
-                break;
+                return 'white';
             case 'about':
-                'green';
-                break;
+                return 'green';
         }
     }
 

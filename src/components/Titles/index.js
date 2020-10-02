@@ -1,7 +1,7 @@
 import React from 'react';
 import { H1, H2, H3, H4, H5, H6 } from '../Titles/styled'
 
-const Title = ({ children, props }) => {
+const Title = ({ children, ...props }) => {
     //Aca se pueden agregar todos los atributos que quieras
     const { type, primary } = props;
 

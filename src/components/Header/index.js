@@ -12,7 +12,10 @@ const translateURL = id => {
             return 2;
 
         case '/experiment':
-            return 3
+            return 3;
+
+        case '/lista':
+            return 4
     }
     console.log(id)
 }
@@ -29,8 +32,8 @@ const Navbar = () => {
                 <Link to='/about'>About Us</Link>
                 <Link to='/experiment'>Experiment</Link>
                 <Link to='/lista'>Lista</Link>
-                
-                
+
+
             </nav>
         </Header>
     )

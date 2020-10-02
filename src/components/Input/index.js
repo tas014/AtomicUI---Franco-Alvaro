@@ -1,18 +1,18 @@
 import React from 'react';
 import { SelectInput, SubmitInput, TextAreaInput, TextInput } from '../Input/styled'
 
-const Input = ({ children, props }) => {
+const Input = ({ children, ...props }) => {
     const { type } = props;
 
     switch (type) {
         case 'text':
-            return (<TextInput>{children}</TextInput>);
+            return (<TextInput></TextInput>);
 
         case 'textArea':
-            return (<TextAreaInput>{children}</TextAreaInput>);
+            return (<TextAreaInput></TextAreaInput>);
 
         case 'submit':
-            return (<SubmitInput>{children}</SubmitInput>);
+            return (<SubmitInput></SubmitInput>);
 
         case 'select':
             return (<SelectInput>{children}</SelectInput>);

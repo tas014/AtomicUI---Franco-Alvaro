@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from '../Header/asterik.svg';
+import Icon from '../Logo/styled';
 
 
 const Logo = () => {
 
     return (
-        <Logo src={logo} alt='logo' />
+        <Icon src={logo} alt='logo' />
     )
-} 
+}
 
 export default Logo

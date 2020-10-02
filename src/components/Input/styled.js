@@ -18,7 +18,7 @@ const TextAreaInput = styled.textarea`
 `
 
 const SubmitInput = styled.input.attrs({
-    type: 'input',
+    type: 'submit',
     value: 'submit'
 })`
 

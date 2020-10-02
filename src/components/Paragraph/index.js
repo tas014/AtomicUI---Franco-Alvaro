@@ -1,7 +1,7 @@
 import React from 'react';
 import P from '../Paragraph/styled'
 
-const Paragraph = ({ children, props }) => {
+const Paragraph = ({ children, ...props }) => {
     const { page, highlighted } = props;
 
     return (

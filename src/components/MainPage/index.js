@@ -1,5 +1,6 @@
-import React from 'react'
-import Main from '../MainPage/styled'
+import React from 'react';
+import Main from '../MainPage/styled';
+import Paragraph from '../Paragraph'
 
 const Mainpage = () => {
     return (

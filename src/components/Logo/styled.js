@@ -1,7 +1,7 @@
 
 import styled from 'styled-components';
 
-const Logo = styled.img`
+const Icon = styled.img`
 
 & img {
     width: 1em;
@@ -19,4 +19,4 @@ transition:0.3s;
 }
 `
 
-export default Logo
+export default Icon
