@@ -73,6 +73,15 @@ padding: 10px 20px;
     cursor: crosshair !important;
     margin-top: 1.5em;
     font-family: 'Gugi',monospace;
+    transition: 0.3s all;
+
+    :active{
+       
+        border-radius: 5px;
+    transition: 0.3s all;
+    opacity: 0.7;
+    
+    }
 `
 
 const SelectInput = styled.select`
