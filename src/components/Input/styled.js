@@ -19,7 +19,6 @@ const TextAreaInput = styled.textarea`
 
 const SubmitInput = styled.input.attrs({
     type: 'submit',
-    value: 'submit'
 })`
 
     padding:1em 2em;
