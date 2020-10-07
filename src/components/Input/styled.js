@@ -10,11 +10,30 @@ const TextInput = styled.input.attrs({
 `
 
 const TextAreaInput = styled.textarea`
+ font-family: 'Poppins', sans-serif;
+margin: 0px;
+    width: 90%;
+    height: 80px;
+    background: none;
+    resize: none;
+    outline: none;
+    border: 2px solid white;
+    padding: 10px; 
+    transition:0.6s all;
+    color:white;
+    font-size:12px;
+    cursor: crosshair !important;
 
-    height:10vh;
-    width:40%;
-    padding:2em;
+    :focus{
+        border: 2px solid orange;
+        transition:0.6s all;
+        padding: 30px; 
+    }
 
+    :hover{
+        border: 2px solid orange;
+        transition:0.6s all;
+    }
 `
 
 const SubmitInput = styled.input.attrs({
@@ -26,11 +45,30 @@ const SubmitInput = styled.input.attrs({
 `
 
 const SelectInput = styled.select`
-    width:40%;
+    width: auto;
+    padding: 8px;
+    margin: 20px;
+    margin-left: 0px;
+    border: none;
+    color: orange;
+    font-weight: 600;
+    outline: none;
+    font-family: 'Gugi',monospace;
+    cursor: crosshair;
+    transition:0.6s all;
 
     option {
-        width:100%;
-        padding:1em;
+        width: 100%;
+    padding: 1em;
+    outline: none;
+    background: #ffffff;
+    border: none;
+    color: orange;
+    padding: 20px !important;
+    border-radius: 6px;
+    margin: 20px;
+    font-family: 'Gugi',monospace;
+    cursor: crosshair !important;
     }
 
 `

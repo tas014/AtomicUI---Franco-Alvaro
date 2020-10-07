@@ -15,7 +15,7 @@ const Header = styled.header`
     
 
     div {
-        height:20vh;
+        height:13vh;
         display:flex;
         justify-content:center;
         align-items:center
@@ -50,7 +50,7 @@ const Header = styled.header`
     }
 
     nav a:nth-child(${props => { return props.Currentpage }}) {
-        background-color: white;
+        
         color:orange;
         border-radius:10px;
     }
@@ -72,21 +72,6 @@ const Header = styled.header`
      opacity:0.6;
     }
 
-
-    img {
-        width: 1em;
-    color: azure;
-    background: white;
-    padding: 8px;
-    transition:0.3s;
-
-    }
-
-    img:hover{
-        border-radius: 6px;
-        cursor:pointer;
-        transition:0.3s;
-    }
 
 `
 

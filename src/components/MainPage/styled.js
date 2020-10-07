@@ -12,14 +12,14 @@ const Main = styled.main`
     min-height:100vh;
     margin:none;
 
-    /*h1 {
+    #farp {
         color: white;
     font-family: 'Gugi',monospace;
     font-weight: 100;
     font-size: 2em;
-    }*/
+    }
 
-    span{
+    #farp span{
         font-style: italic;
     color: orange;
     }

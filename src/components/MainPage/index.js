@@ -5,7 +5,7 @@ import Paragraph from '../Paragraph'
 const Mainpage = () => {
     return (
         <Main>
-            <h1>Welcome to <strong>FARP</strong> <span>UI</span></h1>
+            <h1 id="farp">Welcome to <strong>FARP</strong> <span>UI</span></h1>
         </Main>
     )
 }

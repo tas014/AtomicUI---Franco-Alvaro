@@ -2,6 +2,17 @@ import styled from 'styled-components';
 
 const P = styled.p`
     
+    span{
+        font-style: italic;
+    color: orange;
+    }
+
+    
+    margin: 0 auto;
+    color: #ececec;
+    font-size: 1.1em;
+    font-family: 'Poppins',sans-serif;
+
     color: ${props => {
         switch (props.page) {
             case 'home':
@@ -9,9 +20,11 @@ const P = styled.p`
             case 'experiment':
                 return 'white';
             case 'about':
-                return 'green';
+                return '#ececec';
         }
     }
+
+    
 
     };
       font-family: 'Poppins', sans-serif;

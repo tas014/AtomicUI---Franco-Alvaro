@@ -3,19 +3,22 @@ import styled from 'styled-components';
 
 const Icon = styled.img`
 
-    img {
-        width: 1em;
+   
+width: 1.5em;
     color: azure;
+    margin-top: 40px;
+    padding: 20em;
     background: white;
     padding: 8px;
-    transition:0.3s;
+    -webkit-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
 
-    }
-
-    img:hover{
+    :hover{
         border-radius: 6px;
-        cursor:pointer;
-        transition:0.3s;
+        cursor: crosshair !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
     }
 `
 
