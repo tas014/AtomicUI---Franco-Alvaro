@@ -1,11 +1,14 @@
 import React from 'react';
-import Navbar from '../components/Header'
+import Navbar from '../components/Header';
+import Fixer from '../containers/styled';
 
 const Layout = ({ children }) => {
     return (
         <div>
             <Navbar />
-            {children}
+            <Fixer>
+                {children}
+            </Fixer>
         </div>
     )
 }

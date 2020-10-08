@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import background from '../MainPage/background2.jpg';
-/* background-image: url(${background});*/
+
 const Main = styled.main`
 
     background-image: url(${background});

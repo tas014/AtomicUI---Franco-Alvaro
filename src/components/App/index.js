@@ -7,6 +7,7 @@ import Lista from '../../pages/lista';
 
 
 
+
 function App() {
   return (
     <Router>
@@ -18,7 +19,7 @@ function App() {
           <About />
         </Route>
         <Route path="/lista">
-          <Lista/>
+          <Lista />
         </Route>
         <Route path="/experiment">
           <Experiment />

@@ -1,20 +1,24 @@
 import styled from 'styled-components';
+import background from '../img/drew-graham-14lr-KjoyDU-unsplash.jpg';
 
 const Sliding = styled.article`
     
     width:65%;
     position:absolute;
     left: ${props => props.isShown ? '0%' : '100%'};
-    animation:${props => props.isShown ? 'slider-in' : 'slider-out'} 2s;
-    -moz-animation:${props => props.isShown ? 'slider-in' : 'slider-out'} 2s;
-    -webkit-animation:${props => props.isShown ? 'slider-in' : 'slider-out'} 2s; 
+    top:0px;
+    -webkit-transition-property: left;
+    -webkit-transition-duration: 2s;
+    z-index:1;
+    background-color:black;
 
     div {
         display:flex;
-        background-image:url('imagen del sliding article');
+        background-image:url(${background});
+        height:70vh;
     }
 
-    div h1 {
+    div img {
         margin: 3em;
         width:2em;
     }
@@ -22,35 +26,10 @@ const Sliding = styled.article`
     p {
         box-sizing:border-box;
         padding:1em 0px 1em 3em;
+        height:20vh;
+        color:white;
     }
-
     
-    /*  KEYFRAMES DE LA ANIMACION  */;
-    @keyframes slider-in{
-    from {left: 100%} 
-    to{left:0%} 
-    };
-
-    @-moz-keyframes slider-in{
-        from {left: 100%} 
-        to{left:0%} 
-    };
-
-    @-webkit-keyframes slider-in{
-        from {left: 100%} 
-        to{left:0%} 
-    };
-    
-    @keyframes slider-out{
-    from {left: 0%} 
-    to{left:100%} 
-    };
-
-    @-moz-keyframes slider-out{
-        from {left: 0%} 
-        to{left:100%} 
-    };
-
 `
 
 export default Sliding
