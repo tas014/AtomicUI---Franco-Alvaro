@@ -3,7 +3,7 @@ import background from '../img/drew-graham-14lr-KjoyDU-unsplash.jpg';
 
 const Sliding = styled.article`
     
-    width:65%;
+    width: 70%;
     position:absolute;
     left: ${props => props.isShown ? '0%' : '100%'};
     top:0px;
@@ -15,7 +15,9 @@ const Sliding = styled.article`
     div {
         display:flex;
         background-image:url(${background});
-        height:70vh;
+        
+    height: 70vh;
+    background-size: cover;
     }
 
     div img {
@@ -24,10 +26,12 @@ const Sliding = styled.article`
     }
 
     p {
-        box-sizing:border-box;
-        padding:1em 0px 1em 3em;
-        height:20vh;
-        color:white;
+        box-sizing: border-box;
+    
+    height: 20vh;
+    font-size: 13px;
+    color: orange;
+    padding: 20px;
     }
     
 `

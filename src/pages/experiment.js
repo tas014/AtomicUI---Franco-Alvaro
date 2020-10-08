@@ -12,8 +12,6 @@ import Paragraph from '../components/Paragraph'
 import Quote from '../components/Quote'
 //import ReactGlobe from 'react-globe';
 // <ReactGlobe /> NO ME FUNCIONA, A VECES SE ROMPE Y A VECES TARTA 1 SIGLO EN COMPILAR
-
-
 const Experiment = () => {
     const [shown, setShown] = useState(false);
 
@@ -32,9 +30,9 @@ const Experiment = () => {
                         </Article>
                     </div>
                     <Card onClick={() => setShown(!shown)}>FARP</Card>
-                    <SlideArticle isShown={shown}>
-                        <div>
-                            <Logo />
+                    <SlideArticle isShown={!shown}>
+                        <div id="back">
+                          
                         </div>
                         <Paragraph>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</Paragraph>
                     </SlideArticle>

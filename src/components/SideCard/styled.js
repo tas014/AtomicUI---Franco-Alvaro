@@ -61,6 +61,13 @@ width: 24%;
     width: 50%;
     margin-top: 10%;
 }
+
+#back{
+    display: flex;
+    background-image: url(/static/media/drew-graham-14lr-KjoyDU-unsplash.46163da2.jpg);
+    height: 70vh;
+    background-size: cover;
+}
     
 `
 
