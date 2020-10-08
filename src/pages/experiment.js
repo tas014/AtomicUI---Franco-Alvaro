@@ -30,7 +30,7 @@ const Experiment = () => {
                         </Article>
                     </div>
                     <Card onClick={() => setShown(!shown)}>FARP</Card>
-                    <SlideArticle isShown={!shown}>
+                    <SlideArticle isShown={shown}>
                         <div id="back">
                           
                         </div>

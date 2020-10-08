@@ -64,7 +64,7 @@ width: 24%;
 
 #back{
     display: flex;
-    background-image: url(/static/media/drew-graham-14lr-KjoyDU-unsplash.46163da2.jpg);
+    background-image: url();
     height: 70vh;
     background-size: cover;
 }
