@@ -91,7 +91,8 @@ const SelectInput = styled.select`
     margin-left: 0px;
     border: none;
     color: orange;
-    background: white;
+    background: none !important;
+    border: 1px solid white;
     font-weight: 600;
     outline: none;
     font-family: 'Gugi',monospace;
@@ -101,9 +102,10 @@ const SelectInput = styled.select`
     option {
         width: 100%;
         transition: 1s all;
+        background: #ffffff00 !important;
+    border: 1px solid white;
     padding: 1em;
     outline: none;
-    background: #ffffff;
     border: none;
     color: orange;
     padding: 20px !important;
