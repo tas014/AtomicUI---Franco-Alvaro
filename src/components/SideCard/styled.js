@@ -11,32 +11,57 @@ const Cutout = styled.div`
     height:60vh;
 
     h1 {
-        rotate:270deg;
-        margin-bottom:2em;
+        transform: rotate(-90deg);
+        margin-bottom:1.5em;
         color:white;
         height:1em;
-        font-size:3em;
+        font-size:3.5em;
         justify-self:flex-end;
         align-self: flex-end;
+        font-family: 'Gugi',monospace;
+        
     }
+
 
 `
 
 const Container = styled.div`
 
-    width:30%;
-    height:80vh;
-    background-color:black;
+width: 24%;
+    height: 80vh;
+    background-color: black;
     position: absolute;
-    left:70%;
-    top:0%;
-    z-index:2;
+    left: 76%;
+    top: 0%;
+    z-index: 2;
 
     &:hover{
-        cursor:pointer;
+        cursor:crosshair;
     }
 
 
+    #img3{
+        width: 30%;
+    object-fit: cover;
+    height: 40vh;
+    width: 30%;
+    object-fit: cover;
+    height: 20vh;
+    margin-bottom: 23%;
+    }
+
+    p{
+        box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    color: white;
+    font-size: 13px;
+    width: 50%;
+    margin-top: 10%;
+}
+    
 `
 
 export { Container, Cutout }

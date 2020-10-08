@@ -12,7 +12,7 @@ const Holder = styled.div`
         height:80vh;
         display:flex;
         flex-direction:column;
-        align-content:space-between
+        align-content:space-between;
     }
 
 `
@@ -23,13 +23,20 @@ const Container = styled.article`
 
     display:flex;
     justify-content:space-between;
+  
     flex-direction:${props => props.odd ? 'row-reverse' : 'row'};
     margin-bottom:${props => props.odd ? '0px' : '5%'};
+
+    
 
     img {
         width:${props => props.odd ? '30%' : '50%'};
         object-fit:cover;
         height:40vh;
+        width: 50%;
+    object-fit: cover;
+    height: 30vh;
+    margin-bottom: 23%;
     }
 
     p {
@@ -37,8 +44,15 @@ const Container = styled.article`
         width:${props => props.odd ? '70%' : '50%'};
         padding: 1em 0px 0px ${props => props.odd ? '1em' : '3em'};
         font-family:${props => props.odd ? 'Gugi, cursive;' : 'Poppins, sans-serif;'};
-        text-align:center;
-        color:white
+        color:white;
+        font-size: 14px;
+        box-sizing: border-box;
+    width: 50%;
+    padding: 1em 0px 0px 3em;
+    font-family: Poppins,sans-serif;
+    color: white;
+    font-size: 13px;
+    margin-top: 7%;
     }
 
 `
