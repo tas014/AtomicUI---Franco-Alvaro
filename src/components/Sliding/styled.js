@@ -8,11 +8,11 @@ const Sliding = styled.article`
     left: ${props => props.isShown ? '0%' : '100%'};
     top:0px;
     -webkit-transition-property: left;
-    -webkit-transition-duration: 2s;
+    -webkit-transition-duration: 1s;
     z-index:1;
     background-color:black;
 
-    div {
+    div:first-of-type {
         display:flex;
         background-image:url(${background});
         
@@ -25,9 +25,13 @@ const Sliding = styled.article`
         width:2em;
     }
 
+    div:nth-of-type(2){
+        background-color:black;
+    }
+
     p {
         box-sizing: border-box;
-    
+    background-color:black;
     height: 20vh;
     font-size: 13px;
     color: orange;
