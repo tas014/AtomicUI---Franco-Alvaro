@@ -1,5 +1,5 @@
 import React from 'react';
-import Sliding from '../Sliding/styled'
+import Sliding from '../Sliding/styled';
 
 const SlideArticle = ({ children, ...props }) => {
 

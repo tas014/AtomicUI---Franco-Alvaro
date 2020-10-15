@@ -7,6 +7,7 @@ import AuthStyles from '../components/Authstyles'
 
 const LogPage = () => {
     const { isAuthenticated } = useAuth0();
+
     return (
         <AuthStyles>
             <LoginButton />

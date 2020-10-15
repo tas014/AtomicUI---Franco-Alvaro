@@ -11,7 +11,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 
 
 function App() {
-  const { isAuthenticated } = useAuth0();
+  const { user, isAuthenticated } = useAuth0();
   console.log(isAuthenticated);
   return (
     <Router>
@@ -26,7 +26,7 @@ function App() {
           {isAuthenticated ? <Lista /> : <Redirect to='/login' />}
         </Route>
         <Route path="/experiment">
-          {isAuthenticated ? <Experiment /> : <Redirect to='/login' />}
+          {isAuthenticated ? <Experiment /> : <Experiment />}
         </Route>
         <Route path="/login">
           <LogPage />

@@ -9,8 +9,8 @@ const Sliding = styled.article`
     top:0px;
     -webkit-transition-property: left;
     -webkit-transition-duration: 1s;
+    background-color:${props => props.color};
     z-index:1;
-    background-color:black;
 
     div:first-of-type {
         display:flex;
