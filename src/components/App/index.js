@@ -9,11 +9,6 @@ import Lista from '../../pages/lista';
 
 
 function App() {
-<<<<<<< HEAD
-  const { user, isAuthenticated } = useAuth0();
-  console.log(isAuthenticated);
-=======
->>>>>>> parent of e6b523a... Instancia de eterno Login
   return (
     <Router>
       <Switch>
@@ -27,14 +22,7 @@ function App() {
           <Lista />
         </Route>
         <Route path="/experiment">
-<<<<<<< HEAD
-          {isAuthenticated ? <Experiment /> : <Experiment />}
-        </Route>
-        <Route path="/login">
-          <LogPage />
-=======
           <Experiment />
->>>>>>> parent of e6b523a... Instancia de eterno Login
         </Route>
       </Switch>
     </Router>
