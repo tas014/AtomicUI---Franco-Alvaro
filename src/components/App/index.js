@@ -6,8 +6,6 @@ import About from '../../pages/about';
 import Lista from '../../pages/lista';
 
 
-//Hola123
-
 function App() {
   return (
     <Router>
