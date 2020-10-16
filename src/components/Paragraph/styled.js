@@ -1,13 +1,8 @@
 import styled from 'styled-components';
 
 const P = styled.p`
-    
-    span{
-        font-style: italic;
-    color: orange;
-    }
 
-    
+    height:10vh;
     margin: 0 auto;
     color: #ececec;
     font-size: 1.1em;
@@ -24,7 +19,7 @@ const P = styled.p`
         }
     }
 
-    
+
 
     };
       font-family: 'Poppins', sans-serif;

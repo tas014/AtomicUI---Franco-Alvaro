@@ -16,8 +16,8 @@ const Sliding = styled.article`
         display:flex;
         background-image:url(${background});
         
-    height: 70vh;
-    background-size: cover;
+        height: 70vh;
+        background-size: cover;
     }
 
     div img {
@@ -31,11 +31,11 @@ const Sliding = styled.article`
 
     p {
         box-sizing: border-box;
-    background-color:black;
-    height: 20vh;
-    font-size: 13px;
-    color: orange;
-    padding: 20px;
+        background-color:black;
+        height: 10vh;
+        font-size: 13px;
+        color: orange;
+        padding: 20px;
     }
     
 `
